@@ -1,0 +1,16 @@
+# Rust
+/target
+**/*.rs.bk
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Misc
+.DS_Store
+.env
+tmp/
+
