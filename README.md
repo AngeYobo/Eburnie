@@ -62,6 +62,16 @@ This will launch a local development node with Alice/Bob accounts pre-funded.
 
 ---
 
+### Persistent Chain State
+
+To persist your local development chain data:
+
+```bash
+mkdir eburnie-chain-state
+./target/release/solochain-template-node --dev --base-path ./eburnie-chain-state
+```
+This will create a directory `eburnie-chain-state` where your blockchain data will be stored.
+
 ## 🌐 Connect to Polkadot.js Apps
 
 Use this WebSocket endpoint in [Polkadot.js UI](https://polkadot.js.org/apps):
