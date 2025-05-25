@@ -14,3 +14,5 @@
 .env
 tmp/
 
+# Substrate local chain DB
+eburnie-chain-state/eburnie-chain-state/
