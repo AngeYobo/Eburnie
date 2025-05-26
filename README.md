@@ -164,24 +164,4 @@ MIT or Apache 2.0 — please specify your preferred license.
 
 ````
 
----
-
-## 📤 How to Upload to GitHub
-
-### 1. Replace your `README.md` locally:
-
-```bash
-nano README.md
-# (Paste the improved version and save)
-````
-
-### 2. Commit and push:
-
-```bash
-git add README.md
-git commit -m "Improve README with clean setup instructions"
-git push origin main
-```
-
----
 
